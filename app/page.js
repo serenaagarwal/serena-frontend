@@ -17,7 +17,7 @@ export default function Home() {
         title="Welcome to my form!"
         text="Write your name!"
       ></MyForm>
-      <p>To make this website, I took the template we worked on on the last day, 
+      <p>To make this website, I started with what we learned on the last day, 
         but I changed everything, created a new firebase project, and expanded the website. 
         I learned a lot about different JS and CSS features. 
       </p>
