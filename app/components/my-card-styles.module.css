@@ -1,16 +1,33 @@
-/* Very simple styles applied to the card */
+
 .container {
-  border: 1px solid black;
+  border: 2px solid #ff69b4; 
+  border-radius: 15px; 
+  padding: 20px;
+  background: rgba(255, 182, 193, 0.3); 
+  box-shadow: 0 4px 20px rgba(255, 105, 180, 0.5); 
+  transition: transform 0.2s; 
+}
+
+.container:hover {
+  transform: scale(1.05); 
 }
 
 .title {
-  color: red;
+  color: #ff1493; 
+  font-size: 1.5em; 
+  font-weight: bold; 
+  text-align: center; 
 }
 
 .text {
-  color: blue;
+  color: #db7093; 
+  font-size: 1.2em; 
+  margin: 10px 0; 
 }
 
 .counter {
-  color: green;
+  color: #ff69b4; 
+  font-size: 1.3em; 
+  text-align: right; 
+  font-style: italic; 
 }

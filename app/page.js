@@ -1,17 +1,26 @@
-// We import components from other files like this
-import MyCard from "./components/MyCard";
 
-// In a `page.js` file, we usually call the page function `Home`
+import MyCard from "./components/MyCard";
+import MyForm from "./components/MyForm";
+
 export default function Home() {
   return (
     <div>
-      <p> Hello World!</p>
       <MyCard
-        // Example of passing in props (properties) to the card
-        title="My React Card"
-        text="This is some text that is inside of the card"
-        buttonText="Click me!"
+        
+        title="Welcome to Serena's Super Cool Website!"
+        text="This is what I've learned to do after four days of bootcamp!
+        If you want to see an example of my frontend and backend interacting, type in 
+        http://localhost:3000/serenadata!"
+        buttonText="Click on this button!"
       ></MyCard>
+      <MyForm
+        title="Welcome to my form!"
+        text="Write your name!"
+      ></MyForm>
+      <p>To make this website, I took the template we worked on on the last day, 
+        but I changed everything, created a new firebase project, and expanded the website. 
+        I learned a lot about different JS and CSS features. 
+      </p>
     </div>
   );
 }
